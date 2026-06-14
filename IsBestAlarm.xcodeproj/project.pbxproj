@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		873a3ac4114e4e5c9eb79887 /* IsBestAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0be98fd6d25443f29a5ba41a /* IsBestAlarmApp.swift */; };
+		d7eb44adfa5a49188092b4d9 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1fbc919a9b9b4d339b8bd58f /* Alarm.swift */; };
+		6f0e4a0e9c464928ae955e1b /* AlarmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = d762ff01254c45968624ba79 /* AlarmStore.swift */; };
+		afb2f01fbfed4f7db14ec4b0 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8fa68245db8d4153af4d71c9 /* NotificationService.swift */; };
+		08bd9f5e3d664059aef62a64 /* AlarmListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = a173fbef4706406c95298bab /* AlarmListViewModel.swift */; };
+		b62a025b6440415f83b25544 /* AlarmListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38498b0b62c3479bb93ca2df /* AlarmListView.swift */; };
+		12bf7fc49e8d40d2a8b64f04 /* AlarmRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14e82162c5754c40ae62a207 /* AlarmRowView.swift */; };
+		955182bd49a941668ff2cc23 /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6821e26e6f3341109bd90695 /* AddAlarmView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0be98fd6d25443f29a5ba41a /* IsBestAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsBestAlarmApp.swift; sourceTree = "<group>"; };
+		1fbc919a9b9b4d339b8bd58f /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		d762ff01254c45968624ba79 /* AlarmStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmStore.swift; sourceTree = "<group>"; };
+		8fa68245db8d4153af4d71c9 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		a173fbef4706406c95298bab /* AlarmListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListViewModel.swift; sourceTree = "<group>"; };
+		38498b0b62c3479bb93ca2df /* AlarmListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListView.swift; sourceTree = "<group>"; };
+		14e82162c5754c40ae62a207 /* AlarmRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRowView.swift; sourceTree = "<group>"; };
+		6821e26e6f3341109bd90695 /* AddAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmView.swift; sourceTree = "<group>"; };
+		d5dd0b2cbf0d4bb891ee70b6 /* IsBestAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsBestAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		99a068adc88d4ec0ba864cc2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				d762ff01254c45968624ba79 /* AlarmStore.swift */,
+				8fa68245db8d4153af4d71c9 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		f1662e58f20848efbd3fd842 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1fbc919a9b9b4d339b8bd58f /* Alarm.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9ae96233d57b49b3bc4ff8d6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				a173fbef4706406c95298bab /* AlarmListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5863558a919348ccb6ddff50 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				38498b0b62c3479bb93ca2df /* AlarmListView.swift */,
+				14e82162c5754c40ae62a207 /* AlarmRowView.swift */,
+				6821e26e6f3341109bd90695 /* AddAlarmView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		16f1db5aa11e420592225382 = {
+			isa = PBXGroup;
+			children = (
+				0be98fd6d25443f29a5ba41a /* IsBestAlarmApp.swift */,
+				f1662e58f20848efbd3fd842 /* Models */,
+				99a068adc88d4ec0ba864cc2 /* Services */,
+				9ae96233d57b49b3bc4ff8d6 /* ViewModels */,
+				5863558a919348ccb6ddff50 /* Views */,
+				9f883686f032484385c87646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9f883686f032484385c87646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				d5dd0b2cbf0d4bb891ee70b6 /* IsBestAlarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56a134a52e264ceeb06378bc /* IsBestAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92a418143d47414a80668f1a /* Build configuration list for PBXNativeTarget "IsBestAlarm" */;
+			buildPhases = (
+				48d8c5b1d193400cb325b1cd /* Sources */,
+				ac032970486743eab007172c /* Frameworks */,
+				cd56ad482bcd4879a6499a46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IsBestAlarm;
+			productName = IsBestAlarm;
+			productReference = d5dd0b2cbf0d4bb891ee70b6 /* IsBestAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		a8e9a5f90b114fe89fdadc61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					56a134a52e264ceeb06378bc = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 0dd2ba64f5064fb491e6b718 /* Build configuration list for PBXProject "IsBestAlarm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = 16f1db5aa11e420592225382;
+			productRefGroup = 9f883686f032484385c87646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56a134a52e264ceeb06378bc /* IsBestAlarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		cd56ad482bcd4879a6499a46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48d8c5b1d193400cb325b1cd /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873a3ac4114e4e5c9eb79887 /* IsBestAlarmApp.swift in Sources */,
+				d7eb44adfa5a49188092b4d9 /* Alarm.swift in Sources */,
+				6f0e4a0e9c464928ae955e1b /* AlarmStore.swift in Sources */,
+				afb2f01fbfed4f7db14ec4b0 /* NotificationService.swift in Sources */,
+				08bd9f5e3d664059aef62a64 /* AlarmListViewModel.swift in Sources */,
+				b62a025b6440415f83b25544 /* AlarmListView.swift in Sources */,
+				12bf7fc49e8d40d2a8b64f04 /* AlarmRowView.swift in Sources */,
+				955182bd49a941668ff2cc23 /* AddAlarmView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ac032970486743eab007172c /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0dd2ba64f5064fb491e6b719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92a418143d47414a80668f1b /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92a418143d47414a80668f1c /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isbest.alarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0dd2ba64f5064fb491e6b71a /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isbest.alarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0dd2ba64f5064fb491e6b718 /* Build configuration list for PBXProject "IsBestAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0dd2ba64f5064fb491e6b719 /* Debug */,
+				92a418143d47414a80668f1b /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92a418143d47414a80668f1a /* Build configuration list for PBXNativeTarget "IsBestAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92a418143d47414a80668f1c /* Debug */,
+				0dd2ba64f5064fb491e6b71a /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = a8e9a5f90b114fe89fdadc61 /* Project object */;
+}
